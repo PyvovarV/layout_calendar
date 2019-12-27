@@ -17,59 +17,26 @@ body {
   margin: auto; }
   .calendar div {
     display: none;
-    cursor: pointer; }
+    height: 100px;
+    width: 100px;
+    margin: 0 0 1px 1px;
+    background-color: #eee;
+    border: 1px solid black;
+    line-height: 100px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    transition: -webkit-transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
   .calendar-28 div:nth-child(-n + 28) {
-    display: block;
-    height: 100px;
-    width: 100px;
-    margin: 0 0 1px 1px;
-    background-color: #eee;
-    border: 1px solid black;
-    line-height: 100px;
-    text-align: center;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    transition: -webkit-transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
+    display: block; }
   .calendar-29 div:nth-child(-n + 29) {
-    display: block;
-    height: 100px;
-    width: 100px;
-    margin: 0 0 1px 1px;
-    background-color: #eee;
-    border: 1px solid black;
-    line-height: 100px;
-    text-align: center;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    transition: -webkit-transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
+    display: block; }
   .calendar-30 div:nth-child(-n + 30) {
-    display: block;
-    height: 100px;
-    width: 100px;
-    margin: 0 0 1px 1px;
-    background-color: #eee;
-    border: 1px solid black;
-    line-height: 100px;
-    text-align: center;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    transition: -webkit-transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
+    display: block; }
   .calendar-31 div:nth-child(-n + 31) {
-    display: block;
-    height: 100px;
-    width: 100px;
-    margin: 0 0 1px 1px;
-    background-color: #eee;
-    border: 1px solid black;
-    line-height: 100px;
-    text-align: center;
-    -webkit-transition: -webkit-transform 0.5s ease-in-out;
-    transition: -webkit-transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out;
-    transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out; }
+    display: block; }
   .calendar div:nth-child(1)::after {
     content: "1"; }
   .calendar div:nth-child(2)::after {
